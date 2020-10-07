@@ -1,0 +1,19 @@
+.logo{
+    width:40px;
+    height: 40px;
+}
+.navbar-item-ul{
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; 
+}
+
+.mx-flag{
+    width: 300px;
+    height: auto;
+}
+.fun-description{
+    background-color: #eeefe9;
+}
