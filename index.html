@@ -7,15 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- navbar -->
+    
     <nav class="navbar">
-        <div class="webLogo">
-            Rene
-        </div>
+        <div class="webLogo">Rene</div>
         <div class="nav-items">
             <ul>
                 <li><a href="#">Who am I</a></li>
-                <li><a href="#">Fun Fact</a></li>
-                <li><a href="#">Hobbies</a></li>
+                <li><a href="#funfact">Fun Fact</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
             </ul>
         </div>
         <div class="socLogo">
@@ -38,32 +38,51 @@
             </ul>
         </div>
     </nav>
+    <h1 class="headerTitle" id="whoami">Who am I?</h1>
+    <!-- main wrapper -->
     <div class="wrapperMain">
+        <!-- about me page -->
         <main class="mainContainer">
-            <div class="img"><img src="content/DSC_6896.JPG" alt=""></div>
-            <p class="mainDes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio!</p>
+            <div><img class="img reneImg" src="content/DSC_6896.JPG" alt=""></div>
+            <p class="mainDes">	Meet Rene Ramirez, he is currently the Community Outreach Coordinator at 42 Silicon Valley. <br>Rene Ramirez joined 42 Silicon Valley (42) in 2016 as a student, over the last 4 years he volunteered and transitioned into the position he is in now.
+                <br>
+                <br>His journey began when he dropped out of San Francisco State University. His first 2 years at 42 were as a student, he had to prove himself that he was capable of being a strong candidate to become a student. <br>His rigorous path while sleeping in his car for 28 days finally paid off when he joined in as a full time student in 2017. 
+                <br>
+                <br>In late 2017 42 asked him to join their team as an Event Coordinator after his experience with volunteering around campus for several months. <br>Over the next 2 years he managed over 200 events and shared some unique experiences with huge companies and people worldwide. In 2020 he was promoted into his current position as a Community Outreach Coordinator.
+                
         </main>
-        <div class="funFact">
-            <div class="img">IMG goes here</div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, culpa nemo porro dicta at molestiae dolorum, eligendi nobis, suscipit laboriosam voluptate! Nostrum mollitia id consequatur.
+        <br>
+        <h1 class="headerTitle" id="funfact">Fun Fact</h1>
+        <!-- funfact -->
+        <div class="funFact" >
+            <div><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Flag_of_Mexico"></div>
+            <p class="funFactDes">Rene Ramirez was born in Mexico City in one of the most dangerous colonies in the world Iztapalapa.<br> In 2004 his parents decided to bring him over to the United states at the tender age of 7 alongside his sister who was 3 at the time. </p>
         </div>
-        <div class="hobbies">
+        <br>
+        <br>
+        <!-- hobbies -->
+        <h1 class="headerTitle" id="hobbies">Hobbies</h1>
+        <div class="hobbies" >
             <div class="container">
-                <h5>Hobby 1</h5>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, ea!
+                <img class="hobbyPic" src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                <h5 class="title">Car Meets</h5>
+                <p class="hobbyDes">Rene loves car meetups, his passion for cars came recently and he has attended several car meets with some old school cars and new sports cars.</p>
             </div>
             <div class="container">
-                <h5>Hobby 2</h5>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, harum.
+                <img class="hobbyPic" src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                <h5 class="title">Making/Playing Music</h5>
+                <p class="hobbyDes">Rene also has a passion for music, he loves to play his guitar, but also knows piano, and bass and from time to time he makes tunes on his computer. </p>
             </div>
             <div class="container">
-                <h5>Hobby 3</h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, iusto?
+                <img class="hobbyPic" src="https://images.unsplash.com/photo-1531594896955-305cf81269f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                <h5 class="title">Video Games</h5>
+                <p class="hobbyDes">When Rene is not playing his guitar or going to car meets he plays video games. His first console was the PlayStation 1. His favorite games at the moment is AmongUs</p>
             </div>
         </div>
     </div>
+    <!-- footer -->
     <footer class="footer">
-        Designed and created by Rene Ramirez<span></span>(the guy you just read above)</span>
+        Designed and created by Rene Ramirez <span class="smirk">(the guy you just read above)</span>
     </footer>
 </body>
 </html>
