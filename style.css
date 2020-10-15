@@ -38,6 +38,12 @@ body{
     color: var(--clr-wht);
     font-weight: bold;
 }
+@media only screen and (max-width: 800px){
+    .hotLinks{
+        display: none;
+    }
+}
+
 a, u {
     text-decoration: none;
     color: var(--clr-wht);
@@ -55,6 +61,12 @@ ul li{
 }
 .reneLogo{
     width: 3.2em;
+}
+.gHub{
+    width: 1.68em !important;
+}
+.lIn{
+    width: 1.9em !important;
 }
 .logo{
     width: 1.8em;
@@ -182,7 +194,7 @@ ul li{
     border: 0.5px solid var(--clr-primary);
     border-radius: 5px;
     color: var(--clr-wht);
-    font-size: 14px;
+    font-size: 1em;
     background-color: var(--clr-gray);
 }
 
@@ -191,19 +203,23 @@ ul li{
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
+    .hobbyPic{
+        width: 400px;
+    }
     .container{
         grid-template-columns: auto;
-        grid-template-rows: 1fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr 0.1fr 0.5fr;
         grid-template-areas:"hobbyPic"
                             "title"
                             "hobbyDes";
         padding-left: 1em;
     }
     .hobbyDes{
-        font-size: 20px;
+        font-size: 1em;
     }
     .title{
         vertical-align: top;
+        font-size: 1.5em;
     }
 }
 
